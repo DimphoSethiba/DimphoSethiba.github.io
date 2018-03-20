@@ -1,0 +1,94 @@
+body{
+	font-family:Arial;
+	font-size:20px;
+	background-image:url("splash2.jpg");
+	background-repeat:cover;}
+button{
+	text-align:center;
+}
+
+#page{
+
+	margin:20px;
+	color:rgb(62, 101, 116);
+	background-color: #08222C;
+	padding:10px;
+
+}
+figcaption{
+	font-size:26px;
+	font-family:Fredericka the Great;
+	color:rgb(62, 101, 116);
+	text-align:center;
+	font-style: bold;
+}
+figure{
+	margin-right:260px;
+margin-left:260px;
+text-align:center;
+
+}
+
+
+header{
+	font-family:Fredericka the Great;
+	color:rgb(62, 101, 116);
+	font-size: 80px;
+	text-align:center;
+
+}
+
+#content{
+	padding-left: 50px;
+	margin-right:;
+
+	background-color: #08222C;
+
+}
+#link-to-website{
+	font-family:Fredericka the Great;
+}
+#footer{
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	padding:7px;
+	color:#08222C;
+	background-color:#FFFFFF;
+	font-size:70%;
+}
+.row{
+	margin-top: 20px;
+	margin-right:20px;
+}
+.images-1{
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-radius:30%;
+	border-color:#FFFFFF;
+	font-size:0.05em;
+	font-family:Fredericka the Great;
+
+
+ }
+ .images-2{
+ 	text-align: center;
+ 	border-width: 5px;
+ 	border-style: solid;
+ 	border-radius:50%;
+ 	font-size:10;
+ 	font-family:Fredericka the Great;
+border-color:#FFFFFF;
+	}
+
+
+#rightcolumn{
+	float: right;
+	margin-left:350px;
+
+
+
+}
+#capt{
+color:white;}
