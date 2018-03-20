@@ -1,6 +1,6 @@
 body{
 	font-family:Arial;
-	font-size:20px;
+	font-size:25px;
 	background-image:url("splash2.jpg");
 	background-repeat:cover;}
 button{
@@ -33,7 +33,7 @@ text-align:center;
 h1{
 	font-family:Fredericka the Great;
 	color:rgb(62, 101, 116);
-	font-size: 100px;
+	font-size: 80px;
 
 	text-align:center;
 
