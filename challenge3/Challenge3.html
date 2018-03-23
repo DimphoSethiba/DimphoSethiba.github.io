@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:#cc99ff; margin:25px;">
+  <header style="font-size:80px; text-align:center;">Challenge 3</header>
+  <div class="row">
+  <form action="" method="get">
+  <p style="font-size:20px; margin-left:30px;">Enter your number</p>
+  <input type="text" name="number" id="number1" style="margin-left:30px;">
+  <input type="text" name="number" id="number2" style="margin-left:30px;">
+  <input type="text" name="number" id="number3" style="margin-left:30px;">
+  <input type="button" onclick="compareInput()" value="Check Largest Number">
+  <input type="reset" value="Clear">
+  </form>
+  </div>
+  <script type="text/javascript">
+
+
+    function compareInput()
+    {
+      var num1 = document.getElementById("number1").value;
+      var num2 = document.getElementById("number2").value;
+      var num3 = document.getElementById("number3").value;
+	  
+	  //convert variables to integers
+	  num1 = parseInt(num1);
+	  num2 = parseInt(num2);
+	  num3 = parseInt(num3);
+	  
+      var numbers = [num1,num2,num3];
+      var highest = 0;
+
+      for(var x = 0; x <numbers.length; x++)
+      {
+        if(numbers[x] > highest)
+        {
+          highest = numbers[x];
+          //console.log('Highest ' + highest);
+        }	
+      }
+		console.log('Highest ' + highest);
+    }
+//error occurred
+  </script>
+</body>
+
+</html>
