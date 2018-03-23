@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#66ccff; margin:25px;">
+  <header style="font-size:80px; text-align:center;">Challenge 4 </header>
+  <div class="row">
+  <form action="" method="get">
+  <p style="font-size:20px; margin-left:30px;">Enter your number</p>
+  <input type="text" name="number" id="number" style="margin-left:30px;">
+  <input type="button" onclick="convert()" value="Press">
+  <input type="reset" value="Clear">
+  </form>
+  </div>
+  <script type="text/javascript">
+
+
+    function convert()
+    {
+      //declare variable
+      var num = document.getElementById("number").value;
+      var min;
+      var hrs;
+
+      //calculations
+      min= num % 60;
+      num= num - min;
+      hrs = num / 60;
+
+      //store answers in new variable
+      var hours ="hours:" + hrs;
+      var minutes= " minutes:" + min;
+
+      //display
+      console.log(hours + minutes);
+    }
+
+  </script>
+</body>
+
+</html>
