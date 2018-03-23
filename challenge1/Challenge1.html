@@ -1,0 +1,45 @@
+
+<html>
+<body style="background-color:#80ffd4; margin:25px;">
+  <header style="font-size:80px; text-align:center;">Challenge 1</header>
+
+  <form action="" method="get">
+  <div class="row">
+  <p style="font-size:20px; margin-left:30px;">Enter your first number</p>
+  <input type="text" name="number" id="number1" style="margin-left:30px;">
+  <p style="font-size:20px; margin-left:30px;">Enter your second number</p>
+  <input type="text" name="number" id="number2" style="margin-left:30px;">
+
+  <input type="button" onclick="calcSum()" value="Calculate">
+  <input type="reset" value="Clear">
+  </div>
+  </form>
+  <script type="text/javascript">
+
+  function calcSum()
+  {
+    var num1 = document.getElementById("number1").value;
+     num1 = parseInt(num1);
+    var num2 = document.getElementById("number2").value;
+     num2 = parseInt(num2);
+   sum = num1 + num2;
+
+    if(num1 == 75)
+    {
+      console.log('First is:' + num1);
+    }
+    if(num2 == 75)
+    {
+      console.log('Second is:' + num2);
+    }
+    if((num1 + num2) == 75)
+    {
+      console.log('Sum is: ' + sum);
+    }
+  }
+
+
+  </script>
+</body>
+
+</html>
