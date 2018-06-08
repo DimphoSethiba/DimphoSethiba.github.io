@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Dimpho Sethiba</title>
+  <link rel="stylesheet" href="myStyling.css">
+  <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+
+  <style>
+
+  .content{
+    /*background-color: #bbb;*/
+    display: grid;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+  .content div{
+    /*padding: 20px;*/
+  }
+  #one{
+    grid-row: 1/2;
+    background-color: #34091C;
+    display:grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: auto;
+    padding:1px;
+  }
+  a{
+    text-decoration: none;
+    color: #FCDFEB;
+  }
+  #one div{
+    grid-row:1/2;
+    font-family: Kalam;
+    border-right: #FCDFEB 1px solid;
+    padding-left: 2px;
+    font-size:35px;
+    color: #FCDFEB;
+
+  }
+  #two{
+    grid-row:2/11;
+
+  }
+  #three{
+    grid-row:11/12;
+    background-color: #34091C;
+    font-family: Kalam;
+    text-align: left;
+    text-align: center;
+    font-size:25px;
+    color: #FCDFEB;
+  }
+  .link1{
+    grid-column: 8/9;
+  }
+  .link2{
+    grid-column: 9/10;
+  }
+  .link3{
+    grid-column: 10/11;
+  }
+  .link4{
+    grid-column: 11/12;
+  }
+  </style>
+</head>
+
+<body>
+<div class='content'>
+  <div id ='one'>
+    <div class = 'link1'><a href="home.html">Home</a></div>
+    <div class = 'link2'><a href="about.html">About</a></div>
+    <div class = 'link3'><a href="portfolio.html">Portfolio</a></div>
+    <div class = 'link4'><a href="#">Resume</a></div>
+  </div>
+  <div id ='two'>2</div>
+  <div id = 'three'>&copy; 2018 Dimpho Sethiba</div>
+</div>
+</body>
+</html>

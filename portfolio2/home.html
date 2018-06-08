@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Dimpho Sethiba</title>
+  <link rel="stylesheet" href="myStyling.css">
+  <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+
+  <style>
+  body{
+
+  }
+  .grip-1{
+    display:grip;
+    width:100%;
+    max-width: 770px;
+    margin: 0 auto;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+
+
+
+    grid-gap: 20px;
+
+    grid-template-areas: "header header header header header header"
+                          "main main main main main main"
+                          "footer footer footer footer footer footer";
+  }
+  .item-1{
+    background-color: #FCDFEB;
+    grid-area: header;
+    text-align: right;
+
+  }
+  .item-1 > a{
+    font-family: Kalam;
+
+
+    border-right: #FCDFEB 1px solid;
+    font-size:35px;
+    color: #34091C;
+  }
+  a:hover{
+    background-color:#34091C;
+    color: #FCDFEB;
+  }
+  a:active{
+    background-color:hotpink;
+    color: #FCDFEB;
+  }
+  a{
+    text-decoration: none;
+    color:#34091C;
+  }
+  h1{
+
+    font-size: 100px;
+    padding:15px;
+  }
+  .item-2{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    grid-area:main;
+  }
+  .item-3{
+    background-color: #34091C;
+    color:color: #FCDFEB;
+    text-align: center;
+    grid-area:footer;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <div class ='grid-1'>
+    <div class = 'item-1'>
+      <a href="home.html">Home&nbsp;</a>
+      <a href="about.html">About&nbsp;</a>
+      <a href="portfolio.html">Portfolio&nbsp;</a>
+      <a href="#">Resume&nbsp;</a>
+    </div>
+    <div class = 'item-2'>
+      <h1><b>Dimpho Sethiba</b></h1>
+      <p><em><b>I am a coding recruit( Web designer & Front‑end developer) at Umuzi Acamedy</b></em></p>
+    </div>
+    <div class = 'item-3'>
+      &copy; 2018 Dimpho Sethiba
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
