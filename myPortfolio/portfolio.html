@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Dimpho Sethiba</title>
+    <link rel="stylesheet" href="myStyling.css">
+    <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet'>
+
+    <style>
+
+    body{
+      margin:0px;
+      border:0px;
+      padding: 0px;
+    }
+    .content {
+      grid-area: content;
+      display:grid;
+      height:100%;
+      padding-right:25px;
+      padding-left:25px;
+      padding-bottom:25px;
+      grid-gap:10px;
+      grid-template-areas:
+      "project4 project4"
+      "project1 project2"
+      "project1 project2"
+      "project3 project5"
+      "project3 project5"
+      "project6 project7"
+      "project6 project7"
+      "project8 project9"
+      "project8 project9";
+    }
+
+    .wrapper {
+  display: grid;
+  /*grid-gap: 20px;*/
+  grid-row-gap: 20px;
+  grid-template-areas:
+    "nav nav"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "content content"
+    "footer footer";
+    height:100%;
+
+}
+
+.project1{
+   grid-area: project1;
+   background-color: white;
+}
+.project2{
+   grid-area: project2;
+   background-color: white;
+}
+.project3{
+   grid-area: project3;
+   background-color: white;
+}
+.project4{
+   grid-area: project4;
+   background-color:#e6fffa;
+
+}
+.project5{
+   grid-area: project5;
+   background-color: white;
+}
+.project6{
+   grid-area: project6;
+   background-color: white;
+}
+.project7{
+   grid-area: project7;
+   background-color: white;
+}
+.project8{
+   grid-area: project8;
+   background-color: white;
+}
+.project9{
+   grid-area: project9;
+   background-color: white;
+}
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 1fr 4fr 1fr;
+
+    grid-template-areas:
+      "nav nav nav"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "content content content"
+      "footer footer  footer";
+      height:100%;
+
+   }
+   .content {
+
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     padding-right:50px;
+     padding-left:50px;
+
+     grid-gap:10px;
+     grid-template-areas:
+     "project1 project2 project3 project4 project4"
+     "project1 project2 project3 project4 project4"
+     "project1 project2 project3 project7 project6"
+     "project1 project2 project3 project7 project6"
+     "project5 project5 project3 project7 project6"
+     "project5 project5 project9 project9 project6"
+     "project5 project5 project9 project9 project8"
+     "project5 project5 project9 project9 project8"
+     "project5 project5 project9 project9 project8";
+   }
+   nav ul {
+     flex-direction: column;
+   }
+   h1{
+     font-size: 80px;
+     padding:0;
+   }
+   p{
+     text-align: right;;
+     font-size: 25px;
+     padding:0;
+   }
+}
+
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+        <nav class="main-nav">
+          <a href="home.html"><b>Home&nbsp;</b></a>
+          <a href="about.html"><b>About&nbsp;</b></a>
+          <a href="portfolio.html"><b>Portfolio&nbsp;</b></a>
+          <a href="#"><b>Resume&nbsp;</b></a>
+        </nav>
+        <article class="content">
+
+          <div class = "project1">Pro - 1</div>
+          <div class = "project2">Pro - 2</div>
+          <div class = "project3">Pro - 3</div>
+          <div class = "project4"><h1>portfolio</h1>
+          <p>have a glimpse of MY WORK</p></div>
+          <div class = "project5">Pro - 5</div>
+          <div class = "project6">Pro - 6</div>
+          <div class = "project7">Pro - 7</div>
+          <div class = "project8">Pro - 8</div>
+          <div class = "project9">Pro - 9</div>
+
+        </article>
+
+        <footer class="main-footer">&copy; Dimpho Sethiba 2018</footer>
+</div>
+  </body>
+</html>
